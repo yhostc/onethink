@@ -73,8 +73,8 @@ function check_dirfile(){
 		array('dir',  '可写', 'success', './Uploads/Editor'),
 		array('dir',  '可写', 'success', './Runtime'),
 		array('dir', '可写', 'success', './Application/User/Conf'),
+		array('dir', '可写', 'success', './Application/Install'),
 		array('file', '可写', 'success', './Application/Common/Conf/config.php'),
-
 	);
 
 	foreach ($items as &$val) {
